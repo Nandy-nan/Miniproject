@@ -1,10 +1,120 @@
+##index.html
+<header>
+  <strong>Smart Parking Chennai</strong>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html">Search</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Find Your Perfect Parking Spot in Chennai</h1>
+  <p>Book parking spaces across Chennai with ease</p>
+
+  <div class="search-box">
+    <link rel="stylesheet" href="style.css">
+    <input id="search" placeholder="Search by area or location">
+    <button onclick="goSearch()">Search</button>
+  </div>
+</section>
+
+<div class="container">
+  <h2>Featured Parking Spots</h2>
+  <div class="cards" id="featured"></div>
+</div>
+
+<button class="chat-toggle" onclick="toggleChat()">💬</button>
+
+<div class="chatbot" id="chat">
+  <div class="chatbot-header">Parking Assistant</div>
+  <div class="chatbot-body" id="chatText">
+    Ask about booking, price or locations.
+  </div>
+  <input id="msg" placeholder="Ask me..." onkeydown="if(event.key==='Enter')ask()">
+</div>
+
+<script src="js/main.js"></script>
+
+<footer class="app-footer">
+  <h3>About Smart Parking Chennai</h3>
+  <p>
+    Smart Parking Chennai is a web-based parking management system that helps
+    users find, book, and manage parking spaces across Chennai in real time.
+    The system reduces traffic congestion, saves time, and provides a seamless
+    booking experience through smart technology.
+  </p>
+</footer>
+
+##login page
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      My Project
-    </title>
-  </head>
-  <body>
-    <h1> My Project </h1>
-  </body>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+
+<div class="auth-card">
+  <h2>Login</h2>
+  <input type="email" placeholder="Email" />
+  <input type="password" placeholder="Password" />
+  <button>Login</button>
+  <p>Don’t have an account? <a href="register.html">Register</a></p>
+</div>
+
+</body>
+</html>
+
+##search
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Search Parking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <h2>Smart Parking Chennai</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html" class="active">Search</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<section class="search-section">
+  <h1>Find Parking Near You</h1>
+
+  <div class="search-box">
+    <input type="text" placeholder="Enter area or location" />
+    <button>Search</button>
+  </div>
+
+  <div class="parking-grid">
+    <div class="parking-card">
+      <h3>Marina Beach Parking</h3>
+      <p>Available Slots: 45</p>
+      <p>₹40 / hour</p>
+      <button onclick="bookSlot()">Book Now</button>
+    </div>
+
+    <div class="parking-card">
+      <h3>T Nagar Parking</h3>
+      <p>Available Slots: 30</p>
+      <p>₹50 / hour</p>
+      <button onclick="bookSlot()">Book Now</button>
+    </div>
+  </div>
+</section>
+
+<script>
+function bookSlot() {
+  window.location.href = "booking.html";
+}
+</script>
+
+</body>
 </html>
