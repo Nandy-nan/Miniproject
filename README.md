@@ -1,9 +1,9 @@
-##Online Parking Booking System with AI Assistance
-##About
+## Online Parking Booking System with AI Assistance
+## About
 The Online Parking Booking System is a web-based application designed to simplify parking space reservation by allowing users to search, book, and manage parking slots in real time. The system reduces manual effort, traffic congestion, and time spent searching for parking by providing a centralized digital platform with an intelligent assistant for user interaction.
 
 Traditional parking systems often rely on manual allocation and lack real-time availability updates. This project overcomes these challenges by integrating smart booking features, location-based parking search, and a user-friendly interface for efficient parking management.
-##Features
+## Features
 User registration and secure login system
 
 Real-time parking slot availability
@@ -20,7 +20,7 @@ Reduced time complexity and efficient slot management
 
 Structured data handling using JSON
 
-##Requirements
+## Requirements
 Operating System
 
 Windows 10 / Ubuntu (64-bit)
@@ -70,7 +70,10 @@ The system follows a client–server architecture where the frontend interacts w
 <img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/13466f8f-6cbf-4375-945e-c2ca4064d2b3" />
 ## OUTPUT
 <img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/50bc3030-6fc1-4dc8-805e-8e8527965e4f" />
+![WhatsApp Image 2025-12-25 at 10 22 22 PM](https://github.com/user-attachments/assets/3ea7c801-b1f9-42db-a278-2c80fc5b5361)
+
 <img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/da6f0aa9-8b20-421e-ac3b-0694b7fe19e2" />
+
 
 <img width="1365" height="683" alt="image" src="https://github.com/user-attachments/assets/2d14c273-063d-42cd-9777-cdc9a84e43e6" />
 
@@ -81,7 +84,7 @@ The Online Parking Booking System significantly improves parking management effi
 
 This project demonstrates the effective use of web technologies and database management to solve real-world urban parking problems and provides a scalable foundation for future smart transportation systems.
 
-##Articles Published / References
+## Articles Published / References
 Smart Parking Systems Using IoT and Web Technologies – International Journal of Computer Applications
 
 Web-Based Parking Management Systems for Smart Cities – IEEE Conference Proceedings
