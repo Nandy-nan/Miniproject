@@ -1,58 +1,90 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+##Online Parking Booking System with AI Assistance
+##About
+The Online Parking Booking System is a web-based application designed to simplify parking space reservation by allowing users to search, book, and manage parking slots in real time. The system reduces manual effort, traffic congestion, and time spent searching for parking by providing a centralized digital platform with an intelligent assistant for user interaction.
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Traditional parking systems often rely on manual allocation and lack real-time availability updates. This project overcomes these challenges by integrating smart booking features, location-based parking search, and a user-friendly interface for efficient parking management.
+##Features
+User registration and secure login system
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Real-time parking slot availability
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Online slot booking and cancellation
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+Smart assistant for parking-related queries
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Location-based parking search
 
+Scalable web-based architecture
 
-## Output
+Reduced time complexity and efficient slot management
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+Structured data handling using JSON
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+##Requirements
+Operating System
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+Windows 10 / Ubuntu (64-bit)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Development Environment
 
+Node.js (v16 or later)
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+JavaScript (ES6+)
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Backend Technologies
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Node.js with Express.js
+
+MongoDB / MongoDB Atlas for database management
+
+Frontend Technologies
+
+HTML, CSS, JavaScript
+
+React.js (optional for UI enhancement)
+
+APIs & Services
+
+Google Maps API (for parking location integration – optional/free tier)
+
+RESTful APIs for booking and user management
+
+IDE & Tools
+
+Visual Studio Code
+
+Git for version control
+
+Postman for API testing
+
+Additional Dependencies
+
+Mongoose
+
+Axios
+
+JWT for authentication
+
+##System Architecture
+The system follows a client–server architecture where the frontend interacts with the backend via REST APIs. The backend handles authentication, parking slot allocation, and database operations, while MongoDB stores user and booking details.
+<img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/13466f8f-6cbf-4375-945e-c2ca4064d2b3" />
+##OUTPUT
+<img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/50bc3030-6fc1-4dc8-805e-8e8527965e4f" />
+<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/1a14e2ae-1271-41bb-95db-
+  9d54dd1a19d9" />
+  <img width="1365" height="683" alt="image" src="https://github.com/user-attachments/assets/40fe1e27-23e2-4145-b608-
+    230a480de9ab" />
+
+   ## Results and Impact
+The Online Parking Booking System significantly improves parking management efficiency by minimizing search time and reducing congestion. It enhances user convenience through digital booking and intelligent assistance, making it suitable for smart cities, malls, colleges, hospitals, and commercial complexes.
+
+This project demonstrates the effective use of web technologies and database management to solve real-world urban parking problems and provides a scalable foundation for future smart transportation systems.
+
+##Articles Published / References
+Smart Parking Systems Using IoT and Web Technologies – International Journal of Computer Applications
+
+Web-Based Parking Management Systems for Smart Cities – IEEE Conference Proceedings
+
 
 
 
