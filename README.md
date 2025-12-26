@@ -65,15 +65,16 @@ Axios
 
 JWT for authentication
 
-##System Architecture
+## System Architecture
 The system follows a client–server architecture where the frontend interacts with the backend via REST APIs. The backend handles authentication, parking slot allocation, and database operations, while MongoDB stores user and booking details.
 <img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/13466f8f-6cbf-4375-945e-c2ca4064d2b3" />
-##OUTPUT
+## OUTPUT
 <img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/50bc3030-6fc1-4dc8-805e-8e8527965e4f" />
-<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/1a14e2ae-1271-41bb-95db-
-  9d54dd1a19d9" />
-  <img width="1365" height="683" alt="image" src="https://github.com/user-attachments/assets/40fe1e27-23e2-4145-b608-
-    230a480de9ab" />
+<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/da6f0aa9-8b20-421e-ac3b-0694b7fe19e2" />
+
+<img width="1365" height="683" alt="image" src="https://github.com/user-attachments/assets/2d14c273-063d-42cd-9777-cdc9a84e43e6" />
+
+
 
    ## Results and Impact
 The Online Parking Booking System significantly improves parking management efficiency by minimizing search time and reducing congestion. It enhances user convenience through digital booking and intelligent assistance, making it suitable for smart cities, malls, colleges, hospitals, and commercial complexes.
