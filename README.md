@@ -70,7 +70,7 @@ The system follows a client–server architecture where the frontend interacts w
 <img width="336" height="150" alt="image" src="https://github.com/user-attachments/assets/13466f8f-6cbf-4375-945e-c2ca4064d2b3" />
 ## OUTPUT
 <img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/50bc3030-6fc1-4dc8-805e-8e8527965e4f" />
-![WhatsApp Image 2025-12-25 at 10 22 22 PM](https://github.com/user-attachments/assets/3ea7c801-b1f9-42db-a278-2c80fc5b5361)
+<img width="1700" height="837" alt="image" src="https://github.com/user-attachments/assets/a7d8093b-d030-495f-9e1a-eb2c44de18e4" />
 
 <img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/da6f0aa9-8b20-421e-ac3b-0694b7fe19e2" />
 
